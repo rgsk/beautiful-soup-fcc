@@ -1,6 +1,5 @@
 
+from scrape_nykaa_project.index import scrape_and_save_nykaa
 
-from scrape_nykaa import run_scrape_nykaa
 
-run_scrape_nykaa()
-# run_scrapping_basics()
+scrape_and_save_nykaa()

@@ -3,7 +3,7 @@
   "editor.codeActionsOnSave": {
     // below reorders the import statements
     // for eg - lib imports before local imports
-    "source.organizeImports": true
+    "source.organizeImports": false
   },
   "saveAndRunExt": {
     // below triggers the autoflake extension to remove unused imports
@@ -11,8 +11,8 @@
     "commands": [
       {
         "match": ".*\\.py",
-        "isShellCommand": false,
-        "cmd": "autoflake.removeUnused"
+        "isShellCommand": false
+        // "cmd": "autoflake.removeUnused"
       }
     ]
   },

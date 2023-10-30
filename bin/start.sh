@@ -2,4 +2,4 @@
 
 export PYTHONPATH="$PYTHONPATH:$PWD"
 
-nodemon --exec python src/main.py
+nodemon -w src -e py --exec "python src/main.py"
